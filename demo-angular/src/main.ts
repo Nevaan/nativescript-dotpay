@@ -2,5 +2,8 @@
 import { platformNativeScriptDynamic } from "nativescript-angular/platform";
 
 import { AppModule } from "./app/app.module";
+declare var DotPay: any;
+console.log(DotPay)
+console.log(DotPay.sharedInstance())
 
 platformNativeScriptDynamic().bootstrapModule(AppModule);

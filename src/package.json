@@ -1,8 +1,8 @@
 {
-	"name": "nativescript-tns-dotpay",
-	"version": "1.0.0",
-	"description": "Your awesome NativeScript plugin.",
-	"main": "tns-dotpay",
+	"name": "nativescript-dotpay",
+	"version": "0.0.1",
+	"description": "Nativescript Dotpay SDK wrapper",
+	"main": "nativescript-dotpay",
 	"typings": "index.d.ts",
 	"nativescript": {
 		"platforms": {
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Nevaan/nativescript-tns-dotpay.git"
+		"url": "https://github.com/Nevaan/nativescript-dotpay.git"
 	},
 	"scripts": {
 		"tsc": "npm i && tsc",
@@ -28,7 +28,7 @@
 		"demo-angular.ios": "npm run tsc && cd ../demo-angular && tns run ios --emulator",
 		"demo-angular.android": "npm run tsc && cd ../demo-angular && tns run android --emulator",
 		"demo-angular.reset": "cd ../demo-angular && npx rimraf -- hooks node_modules platforms package-lock.json",
-		"plugin.prepare": "npm run build && cd ../demo && tns plugin remove nativescript-tns-dotpay && tns plugin add ../src && cd ../demo-angular && tns plugin remove nativescript-tns-dotpay && tns plugin add ../src",
+		"plugin.prepare": "npm run build && cd ../demo && tns plugin remove nativescript-dotpay && tns plugin add ../src && cd ../demo-angular && tns plugin remove nativescript-dotpay && tns plugin add ../src",
 		"clean": "npm run demo.reset && npm run demo-angular.reset && npx rimraf -- node_modules package-lock.json && npm i"
 	},
 	"keywords": [
@@ -38,14 +38,14 @@
 		"iOS"
 	],
 	"author": {
-		"name": "Your Name",
-		"email": "youremail@yourdomain.com"
+		"name": "Pawel Losek",
+		"email": "pawel.losek@outlook.com"
 	},
 	"bugs": {
-		"url": "https://github.com/Nevaan/nativescript-tns-dotpay/issues"
+		"url": "https://github.com/Nevaan/nativescript-dotpay/issues"
 	},
 	"license": "Apache-2.0",
-	"homepage": "https://github.com/Nevaan/nativescript-tns-dotpay",
+	"homepage": "https://github.com/Nevaan/nativescript-dotpay",
 	"readmeFilename": "README.md",
 	"devDependencies": {
 		"tns-core-modules": "^6.0.0",

@@ -13,7 +13,7 @@
   "repository": "<fill-your-repository-here>",
   "dependencies": {
     "nativescript-theme-core": "~1.0.6",
-    "nativescript-tns-dotpay": "file:../src",
+    "nativescript-dotpay": "file:../src",
     "tns-core-modules": "~6.0.0"
   },
   "devDependencies": {

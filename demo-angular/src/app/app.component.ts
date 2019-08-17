@@ -1,5 +1,5 @@
-import { TnsDotpay } from 'nativescript-tns-dotpay';
-console.log(new TnsDotpay().message);
+import { NativescriptDotpay } from 'nativescript-dotpay';
+console.log(new NativescriptDotpay().message);
 import { Component } from "@angular/core";
 
 @Component({
